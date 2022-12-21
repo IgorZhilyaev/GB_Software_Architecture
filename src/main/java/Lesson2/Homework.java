@@ -7,8 +7,8 @@ public class Homework {
 
     static Employee generateEmploeyee(){
 
-        //  String[] names = new String[] { "Анатолий", "Глеб", "Клим", "Мартин", "Лазарь", "Владлен", "Клим", "Панкратий", "Рубен", "Герман" };
-        //  String[] surnames = new String[] { "Григорьев", "Фокин", "Шестаков", "Хохлов", "Шубин", "Бирюков", "Копылов", "Горбунов", "Лыткин", "Соколов" };
+         String[] names = new String[] { "Анатолий", "Глеб", "Клим", "Мартин", "Лазарь", "Владлен", "Клим", "Панкратий", "Рубен", "Герман" };
+         String[] surnames = new String[] { "Григорьев", "Фокин", "Шестаков", "Хохлов", "Шубин", "Бирюков", "Копылов", "Горбунов", "Лыткин", "Соколов" };
 
 
         //TODO: Доработать самостоятельно.
@@ -122,5 +122,26 @@ class Worker extends Employee{
     public String toString() {
         return String.format("%s %s; Рабочий; Среднемесячная заработная плата (фиксированная месячная оплата): %.2f (руб.)",
                 surname, name, salary);
+    }
+}
+enum EmployeeType{
+    Worker,
+    Freelancer
+}
+abstract class BaseEmployeeCreater{
+
+    public Employee createEmployee(EmployeeType employeeType){
+
+        Employee employee = createEmploeeInstance(employeeType);
+        return employee;
+    }
+    protected abstract Employee createEmploeeInstance(EmployeeType employeeType);
+}
+
+class ConcreteEmploeeCreater extends BaseEmployeeCreater{
+
+    @Override
+    protected Employee createEmploeeInstance(EmployeeType employeeType) {
+        return null;
     }
 }

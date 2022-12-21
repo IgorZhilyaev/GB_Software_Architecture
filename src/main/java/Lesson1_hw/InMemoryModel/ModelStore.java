@@ -1,39 +1,47 @@
 package Lesson1_hw.InMemoryModel;
 
-import Lesson1_hw.ModelElements.Camera;
-import Lesson1_hw.ModelElements.Flash;
-import Lesson1_hw.ModelElements.PoligonalModel;
-import Lesson1_hw.ModelElements.Scene;
+import Lesson1_hw.ModelElements.*;
 
 import java.util.ArrayList;
-import java.util.Collection;
 
-public class ModelStore implements ModelCanger {
+/**
+ * класс хранилище моделей, сцен, источников света и камер
+ */
+public class ModelStore implements IModelChanger {
 
-    private Collection<PoligonalModel> models;
 
-    private Collection<Scene> scenes;
+    public ArrayList<PoligonalModel> models = new ArrayList<PoligonalModel>();
+    public ArrayList<Scene> scenes = new ArrayList<Scene>();
+    public ArrayList<Flash> flashes = new ArrayList<Flash>();
+    public ArrayList<Camera> cameras = new ArrayList<Camera>();
+    private ArrayList<IModelChangedObserver> changeObservers = new ArrayList<IModelChangedObserver>();
 
-    private Collection<Flash> flashes;
-
-    private Collection<Camera> cameras;
-
-    private Collection<ModelChangedObserver> changedObservers = new ArrayList<>();
-
-     @Override
-    public void RegisterModelChanger(ModelChangedObserver o) {
-
+    /**
+     * конструктор
+     * @param texture
+     */
+    public ModelStore(Texture texture){
+        models.add(new PoligonalModel(texture));
+        flashes.add(new Flash());
+        cameras.add(new Camera());
+        scenes.add(new Scene<>(models.get(0), cameras.get(0)));
     }
 
+    /**
+     * метод интерфейса IModelChanger
+     * @param sender
+     */
     @Override
-    public void RemoveModelChanger(ModelChangedObserver o) {
+    public void NotifyChange(IModelChanger sender) {
 
     }
 
-    @Override
-    public void NotifyChange() {
-
+    /**
+     * получаем сцену по номеру
+     * @param sceneNumber - номер сцены
+     * @return
+     */
+    public Scene getScene(int sceneNumber){
+        return scenes.get(sceneNumber);
     }
-
-
 }

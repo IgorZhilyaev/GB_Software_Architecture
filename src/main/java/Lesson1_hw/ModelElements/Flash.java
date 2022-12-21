@@ -1,52 +1,33 @@
 package Lesson1_hw.ModelElements;
 
-import java.awt.*;
-import java.util.Collection;
+import Lesson1_hw.Stuff.Angle3D;
+import Lesson1_hw.Stuff.Point3D;
 
+import java.awt.Color;
+
+/**
+ * класс источник света
+ */
 public class Flash {
 
-    private Collection<Point3D> location;
-    private Collection<Angle3D> angle;
-    private Collection<Color> colors;
+    private Point3D location;
+    private Angle3D angle;
+    private Color color;
     private float power;
 
-    public Collection<Point3D> getLocation() {
-        return location;
+    /**
+     * поворот источника света
+     * @param angleAction
+     */
+    public void rotate(Angle3D angleAction) {
     }
 
-    public void setLocation(Collection<Point3D> location) {
-        this.location = location;
+    /**
+     * перемещение к точке
+     * @param pointAction
+     */
+    public void move(Point3D pointAction) {
     }
-
-    public Collection<Angle3D> getAngle() {
-        return angle;
-    }
-
-    public void setAngle(Collection<Angle3D> angle) {
-        this.angle = angle;
-    }
-
-    public Collection<Color> getColors() {
-        return colors;
-    }
-
-    public void setColors(Collection<Color> colors) {
-        this.colors = colors;
-    }
-
-    public float getPower() {
-        return power;
-    }
-
-    public void setPower(float power) {
-        this.power = power;
-    }
-
-
-
-    public void moveFlash(Point3D movePoint) {}
-
-    public void rotateFlash(Angle3D rotateAngle) {}
 }
 
 

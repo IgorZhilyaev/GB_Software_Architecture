@@ -1,15 +1,21 @@
 package Lesson1_hw.ModelElements;
 
-import java.util.Collection;
+import Lesson1_hw.Stuff.Point3D;
 
+import java.util.ArrayList;
+
+/**
+ * полигон
+ */
 public class Poligon {
-    private Collection<Point3D> points;
 
-    public Collection<Point3D> getPoints() {
-        return points;
-    }
+    public ArrayList<Point3D> points = new ArrayList<Point3D>();
 
-    public void setPoints(Collection<Point3D> points) {
-        this.points = points;
+    /**
+     * конструктор
+     * @param point
+     */
+    public Poligon(Point3D point) {
+        points.add(point);
     }
 }

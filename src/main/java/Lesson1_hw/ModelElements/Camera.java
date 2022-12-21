@@ -1,29 +1,29 @@
 package Lesson1_hw.ModelElements;
 
-import java.util.Collection;
+import Lesson1_hw.Stuff.Angle3D;
+import Lesson1_hw.Stuff.Point3D;
 
+
+/**
+ * класс камера
+ */
 public class Camera {
 
-    private Collection<Point3D> location;
-    private Collection<Angle3D> angle;
+    public Point3D location;
+    public Angle3D angle;
 
-    public Collection<Point3D> getLocation() {
-        return location;
+    /**
+     * поворот камеры
+     * @param angleAction
+     */
+    public void rotate(Angle3D angleAction) {
     }
 
-    public void setLocation(Collection<Point3D> location) {
-        this.location = location;
+    /**
+     * переместить к точке
+     * @param pointAction
+     */
+    public void move(Point3D pointAction) {
     }
-
-    public Collection<Angle3D> getAngle() {
-        return angle;
-    }
-
-    public void setAngle(Collection<Angle3D> angle) {
-        this.angle = angle;
-    }
-
-    public void rotateCamera(Angle3D rotateAngle){}
-    public void moveCamera(Point3D movePoint){}
 
 }

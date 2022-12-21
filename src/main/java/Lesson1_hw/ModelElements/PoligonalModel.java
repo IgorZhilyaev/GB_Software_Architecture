@@ -1,30 +1,23 @@
 package Lesson1_hw.ModelElements;
 
-import java.util.Collection;
 
+import Lesson1_hw.Stuff.Point3D;
+
+/**
+ * модель полигона
+ */
 public class PoligonalModel {
 
-    private Collection<Poligon> poligons;
-    private Collection<Texture> textures;
+    public Poligon poligons;
+    public Texture textures;
 
-    public Collection<Poligon> getPoligons() {
-        return poligons;
-    }
-
-    public Collection<Texture> getTextures() {
-        return textures;
-    }
-
-    public void setTextures(Collection<Texture> textures) {
-        this.textures = textures;
-    }
-
-    public PoligonalModel(Collection<Poligon> poligons, Collection<Texture> textures){
-        this.poligons = poligons;
-        this.textures = textures;
-    }
-
-    public PoligonalModel(Collection<Poligon> poligons){
-        this.poligons = poligons;
+    /**
+     * конструктор
+     * @param inputTexture
+     */
+    public PoligonalModel(Texture inputTexture) {
+        textures = inputTexture;
+        poligons = new Poligon(new Point3D());
     }
 }
+

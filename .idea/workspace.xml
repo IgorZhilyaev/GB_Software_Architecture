@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Seminar1_hw">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Homework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Sample02.java" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="seminar02">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Sample01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Sample01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelCanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/IModelChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelChangedObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/IModelChangedObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Angle3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/Stuff/Angle3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Camera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Flash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Flash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/Stuff/Point3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Poligon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/PoligonalModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/PoligonalModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Scene.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Texture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Vector3D.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +54,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/IdeaProjects/Software_Architecture&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Homework">
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.Homework" />
@@ -118,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670859381845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="seminar02">
+      <created>1671120590352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671120590352</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar1_hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seminar1_hw" />
+    <MESSAGE value="seminar02" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar02" />
   </component>
 </project>

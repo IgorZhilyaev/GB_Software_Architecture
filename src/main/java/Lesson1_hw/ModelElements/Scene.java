@@ -1,49 +1,34 @@
 package Lesson1_hw.ModelElements;
 
-import java.util.Collection;
+import java.util.ArrayList;
 
-public class Scene {
+/**
+ * класс модель сцены
+ */
+public class Scene<Type1, Type2> {
 
-    static int counter = 0;
-    private int id;
-    private Collection <PoligonalModel> models;
-    private Collection <Flash> flashes;
-    private Collection <Camera> cameras;
+    public int id;
+    public ArrayList<PoligonalModel> models = new ArrayList<>();
+    public ArrayList<Flash> flashes = new ArrayList<>();
+    public ArrayList<Camera> cameras = new ArrayList<>();
 
-    public static int getCounter() {
-        return counter;
+    /**
+     * конструктор
+     * @param inputModels
+     * @param inputCameras
+     */
+    public Scene(PoligonalModel inputModels, Camera inputCameras) {
+        this.models.add(inputModels);
+        this.cameras.add(inputCameras);
     }
 
-    public static void setCounter(int counter) {
-        Scene.counter = counter;
+    //заглушка
+    public Type1 method1(Type1 t){
+        return t;
     }
 
-    public Collection<PoligonalModel> getModels() {
-        return models;
-    }
-
-    public void setModels(Collection<PoligonalModel> models) {
-        this.models = models;
-    }
-
-    public Collection<Flash> getFlashes() {
-        return flashes;
-    }
-
-    public void setFlashes(Collection<Flash> flashes) {
-        this.flashes = flashes;
-    }
-
-    public Collection<Camera> getCameras() {
-        return cameras;
-    }
-
-    public void setCameras(Collection<Camera> cameras) {
-        this.cameras = cameras;
-    }
-
-
-    {
-        id = ++counter;
+    //заглушка
+    public Type2 method2(Type1 type1, Type2 type2){
+        return type2;
     }
 }
