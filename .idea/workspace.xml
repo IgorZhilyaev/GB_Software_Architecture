@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="seminar02">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="seminar01_HW">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson02_hw/Rewards/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson02_hw/Rewards/Rewards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson02_hw/Singleton/ProgramLoger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelCanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/IModelChanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelChangedObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/IModelChangedObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/InMemoryModel/ModelStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Angle3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/Stuff/Angle3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Camera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Camera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Flash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Flash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Point3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/Stuff/Point3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Poligon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Poligon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/PoligonalModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/PoligonalModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Scene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Scene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Texture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Texture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson1_hw/ModelElements/Vector3D.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson2/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson2/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +55,39 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Homework">
+  <component name="RunManager" selected="Application.Lesson02_hw.Rewards.Main">
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.Homework" />
       <module name="Software_Architecture" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson02_hw.Rewards.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson02_hw.Rewards.Main" />
+      <module name="Software_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson02_hw.Rewards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson02.Main" />
+      <module name="Software_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,6 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson02_hw.Rewards.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework" />
         <item itemvalue="Application.Sample02" />
         <item itemvalue="Application.Sample01" />
@@ -136,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671120590352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="seminar01_HW">
+      <created>1671628643217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671628643217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Seminar1_hw" />
     <MESSAGE value="seminar02" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar02" />
+    <MESSAGE value="seminar01_HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar01_HW" />
   </component>
 </project>
