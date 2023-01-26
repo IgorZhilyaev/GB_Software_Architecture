@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="seminar02_HW">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson03/Main.java" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="seminar03">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson04/HomeWork4/HomeWork4/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson04/HomeWork4/HomeWork4/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,15 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lesson02_hw.Rewards.Main">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java" />
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\resources" />
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson04" />
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson04\Interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Lesson06.HEXArchitecture.src.Main">
     <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2.Homework" />
       <module name="Software_Architecture" />
@@ -80,6 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson04.HomeWork4.HomeWork4.src.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson04.HomeWork4.HomeWork4.src.Main" />
+      <module name="Software_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson04.HomeWork4.HomeWork4.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson06.HEXArchitecture.src.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson06.HEXArchitecture.src.Main" />
+      <module name="Software_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson06.HEXArchitecture.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson02.Main" />
       <module name="Software_Architecture" />
@@ -93,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sample01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Sample01" />
-      <module name="Software_Architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sample02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Sample02" />
-      <module name="Software_Architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson06.HEXArchitecture.src.Main" />
+        <item itemvalue="Application.Lesson04.HomeWork4.HomeWork4.src.Main" />
         <item itemvalue="Application.Lesson02_hw.Rewards.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Homework" />
-        <item itemvalue="Application.Sample02" />
-        <item itemvalue="Application.Sample01" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672161657074</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="seminar03">
+      <created>1673262649984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673262649984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +201,7 @@
     <MESSAGE value="seminar02" />
     <MESSAGE value="seminar01_HW" />
     <MESSAGE value="seminar02_HW" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar02_HW" />
+    <MESSAGE value="seminar03" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar03" />
   </component>
 </project>
