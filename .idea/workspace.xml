@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson05_hw">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson05_hw/OnlineShop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson05_hw/OnlineShop.jpg" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson05_hw_correct">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson06_hw/User-Case Hospital.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson05_hw",
+    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson06_hw",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -54,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson06_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson05_hw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -197,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675326454246</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson05_hw_correct">
+      <created>1675334540493</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675334540493</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +228,7 @@
     <MESSAGE value="seminar03" />
     <MESSAGE value="Lesson06.HEXArchitecture" />
     <MESSAGE value="Lesson05_hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson05_hw" />
+    <MESSAGE value="Lesson05_hw_correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson05_hw_correct" />
   </component>
 </project>
