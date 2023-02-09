@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson05_hw_correct">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson06_hw/User-Case Hospital.jpg" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson06_hw">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Controller/iGetModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Controller/iGetView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/View/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Controller/iGetModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Controller/iGetView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Model/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/View/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -46,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson06_hw",
+    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson08/MVP_Example",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -55,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08\MVP_Example" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson06_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson05_hw" />
     </key>
@@ -65,20 +79,7 @@
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson04\Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson06.HEXArchitecture.src.Main">
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2.Homework" />
-      <module name="Software_Architecture" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lesson08.MVC_Example.Main">
     <configuration name="Lesson02_hw.Rewards.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson02_hw.Rewards.Main" />
       <module name="Software_Architecture" />
@@ -118,6 +119,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson08.MVC_Example.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson08.MVC_Example.Main" />
+      <module name="Software_Architecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson08.MVC_Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson02.Main" />
       <module name="Software_Architecture" />
@@ -133,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson08.MVC_Example.Main" />
         <item itemvalue="Application.Lesson06.HEXArchitecture.src.Main" />
         <item itemvalue="Application.Lesson04.HomeWork4.HomeWork4.src.Main" />
         <item itemvalue="Application.Lesson02_hw.Rewards.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675334540493</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Lesson06_hw">
+      <created>1675701444892</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701444892</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,6 +250,7 @@
     <MESSAGE value="Lesson06.HEXArchitecture" />
     <MESSAGE value="Lesson05_hw" />
     <MESSAGE value="Lesson05_hw_correct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson05_hw_correct" />
+    <MESSAGE value="Lesson06_hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson06_hw" />
   </component>
 </project>
