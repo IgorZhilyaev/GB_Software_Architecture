@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson07_hw">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson06_hw/ERD_Hospital.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson08/Lesson06_hw/ERD_Hospital.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson06_hw/User-Case Hospital.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson08/Lesson06_hw/User-Case Hospital.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson07_hw" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/JavaExeption-main",
+    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson08_hw",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -56,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson07_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08\MVP_Example" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson06_hw" />
@@ -223,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675941396157</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Lesson07_hw">
+      <created>1676297773359</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676297773359</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
