@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson06_hw">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Controller/iGetModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Controller/iGetView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVC_Example/View/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Controller/iGetModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Controller/iGetView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/Model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson08/MVP_Example/View/View.java" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson07_hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson06_hw/ERD_Hospital.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson08/Lesson06_hw/ERD_Hospital.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson06_hw/User-Case Hospital.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson08/Lesson06_hw/User-Case Hospital.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson08/MVP_Example",
+    "last_opened_file_path": "E:/JavaExeption-main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -68,6 +56,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson07_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08\MVP_Example" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson06_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson05_hw" />
@@ -227,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675701444892</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lesson07_hw">
+      <created>1675941396157</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675941396157</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +247,7 @@
     <MESSAGE value="Lesson05_hw" />
     <MESSAGE value="Lesson05_hw_correct" />
     <MESSAGE value="Lesson06_hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson06_hw" />
+    <MESSAGE value="Lesson07_hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson07_hw" />
   </component>
 </project>
