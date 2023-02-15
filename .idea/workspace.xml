@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson07_hw" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson08_hw">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson09_hw/CloudResources.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson09_hw/ERD_CloudResources.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson09_hw/openapi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson09_hw/openapi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson08_hw",
+    "last_opened_file_path": "E:/IdeaProjects/Software_Architecture/src/main/java/Lesson09_hw",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -52,13 +58,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson09_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson07_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08\MVP_Example" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson06_hw" />
-      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson05_hw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\resources" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson04" />
@@ -227,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676297773359</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lesson08_hw">
+      <created>1676297978000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676297978000</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +266,7 @@
     <MESSAGE value="Lesson05_hw_correct" />
     <MESSAGE value="Lesson06_hw" />
     <MESSAGE value="Lesson07_hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson07_hw" />
+    <MESSAGE value="Lesson08_hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson08_hw" />
   </component>
 </project>
