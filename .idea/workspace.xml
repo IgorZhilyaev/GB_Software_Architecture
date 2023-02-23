@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson10_hw">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Robot_Cleaners/UML_Authorization.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,10 +56,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Robot_Cleaners" />
+      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Robot_Cleaners\UI" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson09_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08_hw" />
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson07_hw" />
-      <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08\MVP_Example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\Software_Architecture\src\main\java\Lesson08_hw" />
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676914369083</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lesson10_hw">
+      <created>1676915518807</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676915518807</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

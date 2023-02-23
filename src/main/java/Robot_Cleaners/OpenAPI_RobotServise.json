@@ -1,0 +1,1083 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Robot Service",
+    "description": "API сервис управления роботом пылесосом",
+    "version": "0.0.1"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:9669",
+      "description": "Dev server"
+    }
+  ],
+  "paths": {
+    "/User": {
+      "put": {
+        "summary": "Обновить пользователя",
+        "tags": [
+          "User"
+        ],
+        "operationId": "putUser",
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Добавить пользователя",
+        "tags": [
+          "User"
+        ],
+        "operationId": "createCloud",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "adplication/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Error"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Успешный ответ создания заказа на облако",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/User/findById/{userId}": {
+      "get": {
+        "summary": "Найти пользователя по ID",
+        "tags": [
+          "User"
+        ],
+        "operationId": "getCloudById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/User"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/User/deleteById/{userId}": {
+      "delete": {
+        "summary": "Удаляет пользователя",
+        "tags": [
+          "User"
+        ],
+        "operationId": "cancelCloudById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Shedule": {
+      "put": {
+        "summary": "Обновить расписание",
+        "tags": [
+          "Shedule"
+        ],
+        "operationId": "putShedule",
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Shedule"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Добавить расписание",
+        "tags": [
+          "Shedule"
+        ],
+        "operationId": "createShedule",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "adplication/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Error"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Shedule"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Shedule/findById/{userId}": {
+      "get": {
+        "summary": "Найти расписание по ID",
+        "tags": [
+          "Shedule"
+        ],
+        "operationId": "getSheduleById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Shedule"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Shedule/deleteById/{userId}": {
+      "delete": {
+        "summary": "Удаляет робота из расписания",
+        "tags": [
+          "Shedule"
+        ],
+        "operationId": "cancelSheduleById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Group": {
+      "put": {
+        "summary": "Обновить группу",
+        "tags": [
+          "Group"
+        ],
+        "operationId": "putGroup",
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Group"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Добавить группу",
+        "tags": [
+          "Group"
+        ],
+        "operationId": "createGroup",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "adplication/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Error"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Group"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Group/findById/{userId}": {
+      "get": {
+        "summary": "Найти группу по ID",
+        "tags": [
+          "Group"
+        ],
+        "operationId": "getGroupById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Group"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Group/deleteById/{userId}": {
+      "delete": {
+        "summary": "Удаляет группу",
+        "tags": [
+          "Group"
+        ],
+        "operationId": "canceGroupById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Robot": {
+      "put": {
+        "summary": "Обновить робота",
+        "tags": [
+          "Robot"
+        ],
+        "operationId": "putRobot",
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Robot"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Добавить робота",
+        "tags": [
+          "Robot"
+        ],
+        "operationId": "createRobot",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "adplication/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Error"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Robot"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Robot/findById/{userId}": {
+      "get": {
+        "summary": "Найти робота по ID",
+        "tags": [
+          "Robot"
+        ],
+        "operationId": "getRobotById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Robot"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Robot/deleteById/{userId}": {
+      "delete": {
+        "summary": "Удаляет робота",
+        "tags": [
+          "Robot"
+        ],
+        "operationId": "canceRobotById",
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "example": "f102b615"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful operation",
+            "content": {
+              "application/json": {}
+            }
+          },
+          "400": {
+            "description": "Bad request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Unexpected error.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Всё остальное",
+            "content": {
+              "adplication/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "User": {
+        "type": "object",
+        "required": [
+          "id",
+          "email",
+          "passHash",
+          "robotSNHash"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 10
+          },
+          "email": {
+            "type": "string",
+            "example": "mail@mail.ru"
+          },
+          "passHash": {
+            "type": "string",
+            "example": 45654687
+          },
+          "robotSNHash": {
+            "type": "string",
+            "example": 4564879
+          }
+        }
+      },
+      "Group": {
+        "type": "object",
+        "required": [
+          "id",
+          "userId"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 5
+          },
+          "userId": {
+            "type": "integer",
+            "example": 10
+          }
+        }
+      },
+      "Shedule": {
+        "type": "object",
+        "required": [
+          "id",
+          "dateTime",
+          "mode",
+          "robotId"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 10
+          },
+          "dateTime": {
+            "type": "string",
+            "example": "10:00 21.02.2022"
+          },
+          "mode": {
+            "type": "string",
+            "example": null
+          },
+          "robotId": {
+            "type": "integer",
+            "example": 6
+          }
+        }
+      },
+      "Robot": {
+        "type": "object",
+        "required": [
+          "id",
+          "model",
+          "version",
+          "charge",
+          "garbageConteineer",
+          "robotPollution",
+          "nextService",
+          "serialNumber",
+          "ipAddress",
+          "groupId"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "example": 15
+          },
+          "model": {
+            "type": "string",
+            "example": "model_1"
+          },
+          "version": {
+            "type": "string",
+            "example": null
+          },
+          "charge": {
+            "type": "integer",
+            "example": 50
+          },
+          "garbageConteineer": {
+            "type": "integer",
+            "example": 30
+          },
+          "robotPollution": {
+            "type": "string",
+            "example": 10
+          },
+          "nextService": {
+            "type": "string",
+            "example": 10
+          },
+          "serialNumber": {
+            "type": "integer",
+            "example": 10
+          },
+          "ipAddress": {
+            "type": "integer",
+            "example": 10
+          },
+          "groupId": {
+            "type": "integer",
+            "example": 3
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "required": [
+          "code",
+          "message"
+        ],
+        "properties": {
+          "code": {
+            "type": "integer"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
