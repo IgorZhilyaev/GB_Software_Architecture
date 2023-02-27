@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson10_hw">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Robot_Cleaners/UML_Authorization.jpg" afterDir="false" />
+    <list default="true" id="e3a91962-74be-41ee-99ba-5625faa10e4e" name="Changes" comment="Lesson11_hw">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Robot_Cleaners/План тестирования системы управлени роботом пылесосом.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Robot_Cleaners/UML_Authorization.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Robot_Cleaners/UML_Authorization.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676915518807</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Lesson11_hw">
+      <created>1677127980054</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677127980054</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +302,7 @@
     <MESSAGE value="Lesson08_hw" />
     <MESSAGE value="Lesson09_hw" />
     <MESSAGE value="Lesson10_hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson10_hw" />
+    <MESSAGE value="Lesson11_hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson11_hw" />
   </component>
 </project>
